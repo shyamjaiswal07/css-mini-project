@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.landing-image{
+    background: url(https://source.unsplash.com/De8wMYoSSBc);
+    background-position: center;
+    height: 100vh;
+    flex: 0 1 70vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.landing-text{
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.landing-page{
+    display: flex;
+    text-align: center;
+
+
+}
+main{
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+    -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.landing-page .landing-text h2{
+    
+    color: rgb(142, 138, 138);
+}
+h1{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.btn-style{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-style:hover{
+    background-color: rgb(140, 142, 143);
+    color: white;
+}
+/* 2nd part */
+.header h2{
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    border-left: 1px dotted white;
+    border-right: 1px dotted white;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    
+}
+.header{
+    text-align: center;
+    background-color: rgb(55, 52, 52);
+}
+img {
+    display: block;
+    width: 100%;
+  }
+  .caption h2 , p{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      font-weight: 400;
+  }
+  .caption h2{
+      font-weight: 600;
+  }
+  .caption{
+      
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  footer{
+      display: block;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+  }
+  footer h3{
+      font-size:3rem;
+      margin-bottom: 0px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  @media (max-width:768px) {
+      .landing-page{
+          flex-wrap: wrap;
+          display: block;
+      }
+      .landing-image{
+          height: 50vh;
+          background-size:cover ;
+          margin-top: 10px;
+      }
+  }
